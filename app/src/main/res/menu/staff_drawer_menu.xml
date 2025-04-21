@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_pay"
+            android:icon="@drawable/ic_payment"
+            android:title="@string/my_pay_portal"/>
+        <item
+            android:id="@+id/nav_disability"
+            android:icon="@drawable/ic_accessibility"
+            android:title="@string/disability_support"/>
+        <item
+            android:id="@+id/nav_IT_services"
+            android:icon="@drawable/ic_it"
+            android:title="@string/it_services"/>
+        <item
+            android:id="@+id/nav_business_world"
+            android:icon="@drawable/ic_briefcase"
+            android:title="@string/business_world"/>
+        <item
+            android:id="@+id/nav_moodle"
+            android:icon="@drawable/ic_school"
+            android:title="@string/moodle"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/Profile"/>
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone"
+            android:title="@string/contact_directory"/>
+        <item
+            android:id="@+id/nav_ask"
+            android:icon="@drawable/ic_help"
+            android:title="@string/ask_a_question"/>
+    </group>
+
+    <item android:title="@string/log_out">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/log_out"/>
+        </menu>
+    </item>
+</menu>

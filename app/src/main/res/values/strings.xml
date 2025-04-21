@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">My Birkbeck App</string>
+    <string name="welcome_message">Welcome, %1$s!</string>
+    <string name="default_welcome">Welcome, User!</string>
+    <string name="birkbeck_logo">Birkbeck Logo</string>
+    <string name="username">Username/Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="show_password">Show Password</string>
+    <string name="forgotten_details">Forgotten login details?</string>
+    <string name="register">Register</string>
+    <string name="remember_me">Remember my log in details</string>
+    <string name="header_email_format">%1$s@mail.bbk.ac.uk</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="my_timetable">My Timetable</string>
+    <string name="date_format">%1$d/%2$d/%3$d</string>
+    <string name="selected_date">Selected: %1$s</string>
+    <string name="my_birkbeck_library">My Birkbeck Library</string>
+    <string name="search">Search</string>
+    <string name="homePageWelcome">Hello, Stephen! Welcome to your Birkbeck Staff Portal.</string>
+
+    <!-- Navigation item selection messages -->
+    <string name="home_selected">Home selected</string>
+    <string name="fees_selected">Fees and Payments selected</string>
+    <string name="disability_selected">Disability Support selected</string>
+    <string name="modules_selected">Confirm My Modules selected</string>
+    <string name="moodle_selected">Moodle selected</string>
+    <string name="profile_selected">Profile selected</string>
+    <string name="records_selected">Records selected</string>
+    <string name="ask_selected">Ask a Question selected</string>
+    <string name="home">Home</string>
+    <string name="fees_and_payments">Fees and Payments</string>
+    <string name="disability_support">Disability Support</string>
+    <string name="confirm_my_modules">Confirm My Modules</string>
+    <string name="moodle">My Moodle</string>
+    <string name="records">My Records</string>
+    <string name="ask_a_question">Ask a Question</string>
+    <string name="log_out">Log Out</string>
+    <string name="welcome">Welcome, %1$s!</string>
+    <string name="university_id_picture">University ID Picture</string>
+    <string name="Profile">My Profile</string>
+    <string name="menu">Menu</string>
+    <string name="toggle_password_visibility">Toggle password visibility</string>
+    <string name="check_my_timetable">Check My Timetable</string>
+    <string name="refresh_timetable">Refresh Timetable</string>
+    <string name="my_events">View My Events / Schedule Upcoming Events</string>
+    <string name="scheduled_meetings">My Scheduled Meetings</string>
+    <string name="my_pay_portal">My Pay Portal</string>
+    <string name="business_world">Business World</string>
+    <string name="room_bookings">Book a Room</string>
+    <string name="contact_directory">Contact Directory</string>
+    <string name="it_services">IT Services</string>
+    <string name="library">Visit the Birkbeck Library</string>
+    <string name="homePageWelcomeStudent">Hello Stephen! Welcome to your Birkbeck Student Portal.</string>
+</resources>
