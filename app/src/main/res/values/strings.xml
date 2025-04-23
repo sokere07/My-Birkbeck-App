@@ -20,7 +20,6 @@
     <string name="search">Search</string>
     <string name="homePageWelcome">Hello, Stephen! Welcome to your Birkbeck Staff Portal.</string>
 
-    <!-- Navigation item selection messages -->
     <string name="home_selected">Home selected</string>
     <string name="fees_selected">Fees and Payments selected</string>
     <string name="disability_selected">Disability Support selected</string>
