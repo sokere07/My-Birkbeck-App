@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Initialize SharedPreferences
+        // Initialise SharedPreferences
         sharedPreferences = getSharedPreferences("login_prefs", MODE_PRIVATE)
 
         // Check if auto-login is enabled
@@ -27,10 +27,10 @@ class MainActivity : AppCompatActivity() {
 
         // If auto-login is enabled and we have a username
         if (isAutoLoginEnabled && !savedUsername.isNullOrEmpty()) {
-            // Determine if it's a staff account
+            // Determine if it's a staff account by checking if it starts with "staff."
             val isStaff = savedUsername.startsWith("staff.")
 
-            // Skip to welcome activity
+            // Skip to welcome page after auto logging in
             val welcomeIntent = Intent(this, WelcomeActivity::class.java).apply {
                 putExtra("USERNAME", savedUsername)
                 putExtra("IS_STAFF", isStaff)
@@ -105,9 +105,12 @@ class MainActivity : AppCompatActivity() {
                     putExtra("IS_STAFF", isStaff)
                 }
                 startActivity(welcomeIntent)
+              // if no credentials are entered in the username or password fields, display a message
             } else {
                 Toast.makeText(this, "Please enter credentials", Toast.LENGTH_SHORT).show()
             }
+            // Close login activity
+            finish()
         }
     }
 }
