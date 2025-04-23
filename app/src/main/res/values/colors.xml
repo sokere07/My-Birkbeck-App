@@ -1,12 +1,8 @@
 <resources>
     <color name="primaryColor">#003366</color> <!-- Birkbeck Dark Blue -->
-    <color name="accentColor">#FFD700</color> <!-- Birkbeck Gold -->
     <color name="backgroundColor">#F5F5F5</color> <!-- Light Gray -->
     <color name="textColor">#000000</color> <!-- Black -->
     <color name="white">#FFFFFF</color> <!-- White -->
-
-    <!-- Birkbeck Color Scheme -->
-    <color name="primaryBlue">#003366</color>       <!-- Birkbeck dark blue -->
     <color name="darkBlue">#002244</color>          <!-- Darker blue for tints -->
     <color name="bbkYellow">#FFD700</color>         <!-- Birkbeck gold/yellow -->
 </resources>

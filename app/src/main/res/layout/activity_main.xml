@@ -26,7 +26,7 @@
         android:autofillHints=""
         android:hint="Username"
         android:inputType="text"
-        android:backgroundTint="@color/primaryBlue"/>
+        android:backgroundTint="@color/primaryColor"/>
 
     <!-- Password Field with Visibility Toggle -->
     <RelativeLayout
@@ -44,7 +44,7 @@
             android:hint="Password"
             android:inputType="textPassword"
             android:layout_toStartOf="@+id/togglePasswordVisibility"
-            android:backgroundTint="@color/primaryBlue"/>
+            android:backgroundTint="@color/primaryColor"/>
 
         <ImageButton
             android:id="@+id/togglePasswordVisibility"
@@ -66,8 +66,8 @@
         android:layout_below="@id/passwordContainer"
         android:layout_marginTop="16dp"
         android:text="Remember me"
-        android:textColor="@color/primaryBlue"
-        android:buttonTint="@color/primaryBlue"/>
+        android:textColor="@color/primaryColor"
+        android:buttonTint="@color/primaryColor"/>
 
     <!-- Auto Login Checkbox -->
     <CheckBox
@@ -77,8 +77,8 @@
         android:layout_below="@id/rememberMeCheckbox"
         android:layout_marginTop="8dp"
         android:text="Auto Login"
-        android:textColor="@color/primaryBlue"
-        android:buttonTint="@color/primaryBlue"/>
+        android:textColor="@color/primaryColor"
+        android:buttonTint="@color/primaryColor"/>
 
     <!-- Yellow Login Button -->
 
@@ -106,7 +106,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Forgot Password?"
-            android:textColor="@color/primaryBlue"
+            android:textColor="@color/primaryColor"
             android:textSize="14sp"
             android:padding="8dp"/>
 
@@ -114,14 +114,14 @@
             android:layout_width="1dp"
             android:layout_height="16dp"
             android:layout_marginHorizontal="8dp"
-            android:background="@color/primaryBlue"/>
+            android:background="@color/primaryColor"/>
 
         <TextView
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
-            android:textColor="@color/primaryBlue"
+            android:textColor="@color/primaryColor"
             android:textSize="14sp"
             android:padding="8dp"/>
     </LinearLayout>
