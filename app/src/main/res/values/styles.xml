@@ -3,7 +3,6 @@
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryVariant">@color/primaryColor</item>
         <item name="colorOnPrimary">@color/white</item>
-        <item name="colorAccent">@color/bbkYellow</item>
         <item name="android:windowBackground">@color/backgroundColor</item>
         <item name="android:textColor">@color/textColor</item>
     </style>
