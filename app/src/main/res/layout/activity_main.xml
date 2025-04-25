@@ -14,7 +14,7 @@
         android:layout_height="120dp"
         android:layout_centerHorizontal="true"
         android:src="@drawable/bbk_logo"
-        android:contentDescription="Birkbeck Logo"/>
+        android:contentDescription="@string/birkbeck_logo"/>
 
     <!-- Username Field -->
     <EditText
@@ -24,7 +24,7 @@
         android:layout_below="@id/logo"
         android:layout_marginTop="32dp"
         android:autofillHints=""
-        android:hint="Username"
+        android:hint="@string/username"
         android:inputType="text"
         android:backgroundTint="@color/primaryColor"/>
 
@@ -41,7 +41,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:autofillHints=""
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:layout_toStartOf="@+id/togglePasswordVisibility"
             android:backgroundTint="@color/primaryColor"/>
@@ -54,7 +54,7 @@
             android:layout_centerVertical="true"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:src="@drawable/ic_visibility_off"
-            android:contentDescription="Toggle password visibility"
+            android:contentDescription="@string/toggle_password_visibility"
             app:tint="@color/darkBlue" />
     </RelativeLayout>
 
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/passwordContainer"
         android:layout_marginTop="16dp"
-        android:text="Remember me"
+        android:text="@string/remember_me"
         android:textColor="@color/primaryColor"
         android:buttonTint="@color/primaryColor"/>
 
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/rememberMeCheckbox"
         android:layout_marginTop="8dp"
-        android:text="Auto Login"
+        android:text="@string/auto_login"
         android:textColor="@color/primaryColor"
         android:buttonTint="@color/primaryColor"/>
 
@@ -90,7 +90,7 @@
         android:layout_below="@id/rememberMeCheckbox"
         android:layout_marginTop="52dp"
         android:backgroundTint="@color/bbkYellow"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="@android:color/white" />
 
     <LinearLayout
@@ -105,7 +105,7 @@
             android:id="@+id/forgotPassword"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Forgot Password?"
+            android:text="@string/forgotten_details"
             android:textColor="@color/primaryColor"
             android:textSize="14sp"
             android:padding="8dp"/>
@@ -120,7 +120,7 @@
             android:id="@+id/register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Register"
+            android:text="@string/register"
             android:textColor="@color/primaryColor"
             android:textSize="14sp"
             android:padding="8dp"/>

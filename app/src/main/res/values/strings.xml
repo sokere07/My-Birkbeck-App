@@ -19,7 +19,6 @@
     <string name="my_birkbeck_library">My Birkbeck Library</string>
     <string name="search">Search</string>
     <string name="homePageWelcome">Hello, Stephen! Welcome to your Birkbeck Staff Portal.</string>
-
     <string name="home_selected">Home selected</string>
     <string name="fees_selected">Fees and Payments selected</string>
     <string name="disability_selected">Disability Support selected</string>
@@ -52,4 +51,5 @@
     <string name="it_services">IT Services</string>
     <string name="library">Visit the Birkbeck Library</string>
     <string name="homePageWelcomeStudent">Hello Stephen! Welcome to your Birkbeck Student Portal.</string>
+    <string name="auto_login">Auto Login</string>
 </resources>
